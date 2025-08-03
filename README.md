@@ -32,6 +32,6 @@ Data Cleaning: Mean imputation for missing values in all numerical-valued column
 
 Data Preproccesing / Feature Engineering: One hot encoding of the regions for each country (ten regions in total), feature selection of relevant features to the label. 
 
-Key takeaways and figures: Both models performed well (R2 and RMSE metrics were used) when data was cleaned with feature engineering. The Random Forest model provided the ranking of features that contributed to the happiness predictions.
+Key Takeaways and Figures: Both models performed well (R2 and RMSE metrics were used) when data was cleaned with feature engineering. The Random Forest model provided the ranking of features that contributed to the happiness predictions.
 
 
