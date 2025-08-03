@@ -1,7 +1,7 @@
 # world-happiness-report-model-analysis
 Model analysis for predicting happiness scores using the World Happiness Report (WHR) dataset.
 
-<b>About This WHR Model Analysis Project</b><br>
+<b>About - WHR Model Analysis Project</b><br>
 Using the World Happiness Dataset, this analysis implements and fine-tunes Machine Learning Models to predict Happiness (Life Ladder) scores given social, financial, and geographic country data. <br>
 
 Technologies:
