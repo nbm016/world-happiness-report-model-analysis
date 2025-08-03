@@ -4,9 +4,11 @@ Model analysis for predicting happiness scores using the World Happiness Report 
 <b>About - WHR Model Analysis Project</b><br>
 Using the World Happiness Dataset, this analysis implements and fine-tunes Machine Learning Models to predict Happiness (Life Ladder) scores given social, financial, and geographic country data. <br>
 
-Technologies:
+Programming Languages and Libraries: Python, Pandas, Scikit Learn / Sklearn, Seaborn, MatPlotLib
 
-Concepts: 
+Technologies: Jupyter Notebook, GitHub
+
+Concepts: ML Lifecycle, Problem Identification and Importance, Data Exploration, Data Cleaning, Data Preprocessing, Feature Engineering, Model Development/Implementation and Hyperparameter Tuning, Model Evaluation, Data Visualization
 
 Models: Random Forest Regressor, Linear Regression
 
@@ -24,11 +26,11 @@ Importance of Problem: For organizations that are in the social justice, human r
 
 Feature list: Social Support, Freedom, Positive affect, Negative affect, Corruption, Life Expectancy at Birth, LogGDP, Region (Binary Indicators for Ten Regions).
 
-Data Exploration:
+Data Exploration: Scatterplot visualizations of feature relationships (strong linear correlation versus weak linear correlation). 
 
 Data Cleaning: Mean imputation for missing values in all numerical-valued columns. 
 
-Data Preproccesing / Feature Engineering: One hot encoding of the regions for each country (ten regions in total). 
+Data Preproccesing / Feature Engineering: One hot encoding of the regions for each country (ten regions in total), feature selection of relevant features to the label. 
 
 Key takeaways and figures: Both models performed well (R2 and RMSE metrics were used) when data was cleaned with feature engineering. The Random Forest model provided the ranking of features that contributed to the happiness predictions.
 
