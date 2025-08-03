@@ -10,6 +10,10 @@ Concepts:
 
 Models: Random Forest Regressor, Linear Regression
 
+<b>Machine Learning Lifecycle</b><br>
+
+Machine Learning Problem Identification
+
 ML Problem: Predict the happiness score given the features relevant to countries' social standing and wellbeing. Inspect the features that contribute the most to predicting happiness. 
 
 Type of Problem: Supervised learning, regression predictions. 
@@ -18,7 +22,7 @@ Label for Regression Prediction: Life Ladder (known as the Happiness score in th
 
 Importance of Problem: For organizations that are in the social justice, human rights, and ethics industries, determining where a country stands in terms of happiness in crucial to identifying what initiatives to invest in (positive initiatives) or divest from (negative initiatives). 
 
-Feature list: Social support, freedom, positive, negative, corruption, life, region, logGDP.
+Feature list: Social Support, Freedom, Positive affect, Negative affect, Corruption, Life Expectancy at Birth, LogGDP, Region (Binary Indicators for Ten Regions).
 
 Data Exploration:
 
