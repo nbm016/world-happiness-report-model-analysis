@@ -47,6 +47,14 @@ Random Forest Regressor, Linear Regression
 
 R2 and RMSE (Regression prediction evaluation)
 
+Random Forest:<br>
+R2 = Range between 88% to 90%
+RMSE = Range between 31% to 35%
+
+Linear Regression: <br>
+R2 = 91%
+RMSE = 30%
+
 <b>Key Takeaways and Figures</b>
 
 Both models performed well (R2 and RMSE metrics were used) when data was cleaned with feature engineering. The Random Forest model provided the ranking of features that contributed to the happiness predictions.
