@@ -7,7 +7,7 @@ Using the World Happiness 2018 Dataset, this analysis implements and fine-tunes 
 
 <b>Dataset: </b> World Happiness 2018 CSV and Excel Files
 
-<b>Programming Languages and Libraries: </b>Python, Pandas, Scikit-Learn / Sklearn, Seaborn, MatPlotLib
+<b>Programming Languages and Libraries: </b>Python, Pandas, Scikit-Learn / Sklearn, Seaborn, MatPlotLib, NumPy
 
 <b>Technologies:</b> Jupyter Notebook, GitHub
 
