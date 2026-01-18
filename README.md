@@ -1,7 +1,8 @@
 # World Happiness Report Model Analysis
 Model analysis for predicting happiness scores using the World Happiness Report (WHR) dataset.
 
-### <b>About - WHR Model Analysis Project</b><br>
+
+## <b>About - WHR Model Analysis Project</b><br>
 Using the World Happiness 2018 Dataset, this analysis implements and fine-tunes Machine Learning Models to predict Happiness (Life Ladder) scores given social, financial, and geographic data for 164 countries. <br>
 
 <b>Dataset: </b> World Happiness 2018 CSV and Excel Files
@@ -14,9 +15,11 @@ Using the World Happiness 2018 Dataset, this analysis implements and fine-tunes 
 
 <b>Models:</b> Random Forest Regressor, Linear Regression
 
-### <b>Machine Learning Lifecycle</b><br>
+<br>
 
-<b>Machine Learning Problem Identification</b>
+## <b>Machine Learning Lifecycle</b><br>
+
+### Machine Learning Problem Identification
 
 <b>ML Problem:</b> Predict the happiness score given the features relevant to countries' social standing and wellbeing. Inspect the features that contribute the most to predicting happiness. 
 
@@ -27,38 +30,41 @@ Using the World Happiness 2018 Dataset, this analysis implements and fine-tunes 
 <b>Importance of Problem:</b> For organizations that are in the social justice, human rights, and ethics industries, determining where a country stands in terms of happiness in crucial to identifying what initiatives to invest in (positive initiatives) or divest from (negative initiatives). 
 
 <b>Feature list:</b> Social Support, Freedom, Positive affect, Negative affect, Corruption, Life Expectancy at Birth, LogGDP, Region (Binary Indicators for Ten Regions).
+<br><br>
 
-<b>Data Exploration</b>
+### Data Exploration
 
 Scatterplot visualizations of feature relationships (strong linear correlation versus weak linear correlation). 
+<br><br>
 
-<b>Data Cleaning</b>
+### Data Cleaning
 
 Mean imputation for missing values in all numerical-valued columns. 
-
-<b>Data Preproccesing / Feature Engineering</b>
+<br><br>
+### Data Preproccesing / Feature Engineering
 
 One hot encoding of the regions for each country (ten regions in total)<br>
-Feature selection of relevant features to the label. 
-
-<b>Model Selection and Implementation</b> 
+Feature selection of relevant features to the label. Relevant features identified have some linear correlation with the happiness label.  
+<br>
+### Model Selection and Implementation 
 
 Random Forest Regressor (Ensemble Learning Method), Linear Regression
+<br><br>
 
-<b>Model Evaluation and Refinement</b> 
+### Model Evaluation and Refinement
 
 Regression Prediction Evaluation Metrics: R2 and RMSE
 
-Random Forest:<br>
+<i><b>Random Forest:</b></i><br>
 R2 = Range between 88% to 90% <br>
 RMSE = Range between 31% to 35%
 
-Linear Regression: <br>
+<i><b>Linear Regression:</b></i> <br>
 R2 = 91% <br>
 RMSE = 30%
 
 <b>Key Takeaways and Figures</b>
 
 Both models performed well (R2 and RMSE metrics were used) when data was cleaned with feature engineering. The Random Forest model provided the ranking of features that contributed to the happiness predictions.
-
+<br>
 
