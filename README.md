@@ -4,11 +4,13 @@ Model analysis for predicting happiness scores using the World Happiness Report 
 ### <b>About - WHR Model Analysis Project</b><br>
 Using the World Happiness 2018 Dataset, this analysis implements and fine-tunes Machine Learning Models to predict Happiness (Life Ladder) scores given social, financial, and geographic country data. <br>
 
-<b>Programming Languages and Libraries: </b>Python, Pandas, Scikit Learn / Sklearn, Seaborn, MatPlotLib
+<b>Dataset: </b> World Happiness 2018 Excel Files
+
+<b>Programming Languages and Libraries: </b>Python, Pandas, Scikit-Learn / Sklearn, Seaborn, MatPlotLib
 
 <b>Technologies:</b> Jupyter Notebook, GitHub
 
-<b>Concepts:</b> ML Lifecycle, Problem Identification and Importance, Data Exploration, Data Cleaning, Data Preprocessing, Feature Engineering, Model Development/Implementation and Hyperparameter Tuning, Model Evaluation, Data Visualization
+<b>Concepts:</b> ML Lifecycle - Problem Identification and Importance, Data Exploration, Data Cleaning, Data Preprocessing, Feature Engineering, Model Development/Implementation and Hyperparameter Tuning, Model Evaluation, Data Visualization
 
 <b>Models:</b> Random Forest Regressor, Linear Regression
 
