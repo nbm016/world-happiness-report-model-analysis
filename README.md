@@ -1,4 +1,4 @@
-# world-happiness-report-model-analysis
+# World Happiness Report Model Analysis
 Model analysis for predicting happiness scores using the World Happiness Report (WHR) dataset.
 
 ### <b>About - WHR Model Analysis Project</b><br>
