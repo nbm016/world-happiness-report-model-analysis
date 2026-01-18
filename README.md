@@ -79,12 +79,20 @@ One hot encoding of the regions for each country. Ten regions in total. <br>
 <b>Models:</b> Random Forest Regressor (Ensemble Learning Method), Linear Regression <br><br>
 <b>Model Selection Reasoning:</b><br>
 <i><b>Random Forest -></b></i> The prediction results from various decision trees in random forest helps in minimizing loss/inaccurate predictions for complex data. <br>
-<i><b>Linear Regression -></b></i> The selected non-region features have patterns of a linear relationship with the happiness label.
+<i><b>Linear Regression -></b></i> The selected non-region features have patterns of a linear relationship with the happiness label. <br><br>
 
+<b>Model Implementation Details:</b><br>
+<ul>
+  <li>Train and test splits.</li>
+  <li>Cross validation of training data.</li>
+  <li>Hyperparameter tuning. Includes adjusting the number of decision trees and their maximum depth for Random Forest models.</li>
+</ul>
+Multiple iterations repeated the processes of training data, cross validation of training data, testing on unseen data, and hyperparameter tuning in order to maximize R2 and minimize RMSE. 
+<br><br>
 
 ### Model Evaluation and Refinement
 
-Regression Prediction Evaluation Metrics: R2 and RMSE
+Regression Prediction Evaluation Metrics: R2 and RMSE (Root Mean Squared Error)
 
 <i><b>Random Forest:</b></i><br>
 R2 = Range between 88% to 90% <br>
@@ -93,9 +101,16 @@ RMSE = Range between 31% to 35%
 <i><b>Linear Regression:</b></i> <br>
 R2 = 91% <br>
 RMSE = 30%
+<br><br>
+### Key Takeaways and Figures
 
-<b>Key Takeaways and Figures</b>
-
-Both models performed well (R2 and RMSE metrics were used) when data was cleaned with feature engineering. The Random Forest model provided the ranking of features that contributed to the happiness predictions.
-<br>
+Both models performed well according to the reported R2 and RMSE metrics when data was cleaned with feature engineering. <br>
+The Random Forest model provided the ranking of features that contributed to the happiness predictions. <br><br>
+<b>Random Forest Feature Importances </b><br><br>
+<kbd>
+<img width="556" height="637" alt="image" src="https://github.com/user-attachments/assets/db9f4769-19a4-483b-8c79-ad3cf33bd5d6" />
+</kbd>
+<br><br>
+<b>Interpretation: </b>The support received by citizens in various countries have the greatest overall impact on predicting happiness scores globally. The type of region had less impact on predicting happiness scores from different countries.
+<br><br>
 
