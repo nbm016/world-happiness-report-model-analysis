@@ -2,7 +2,7 @@
 Model analysis for predicting happiness scores using the World Happiness Report (WHR) dataset.
 
 ### <b>About - WHR Model Analysis Project</b><br>
-Using the World Happiness Dataset, this analysis implements and fine-tunes Machine Learning Models to predict Happiness (Life Ladder) scores given social, financial, and geographic country data. <br>
+Using the World Happiness 2018 Dataset, this analysis implements and fine-tunes Machine Learning Models to predict Happiness (Life Ladder) scores given social, financial, and geographic country data. <br>
 
 <b>Programming Languages and Libraries: </b>Python, Pandas, Scikit Learn / Sklearn, Seaborn, MatPlotLib
 
@@ -45,14 +45,14 @@ Random Forest Regressor, Linear Regression
 
 <b>Model Evaluation and Refinement</b> 
 
-R2 and RMSE (Regression prediction evaluation)
+Regression Prediction Evaluation Metrics: R2 and RMSE
 
 Random Forest:<br>
-R2 = Range between 88% to 90%
+R2 = Range between 88% to 90% <br>
 RMSE = Range between 31% to 35%
 
 Linear Regression: <br>
-R2 = 91%
+R2 = 91% <br>
 RMSE = 30%
 
 <b>Key Takeaways and Figures</b>
