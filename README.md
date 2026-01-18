@@ -21,7 +21,7 @@ Using the World Happiness 2018 Dataset, this analysis implements and fine-tunes 
 
 ## 🤖🧠 <b>Machine Learning Lifecycle</b> 🧠🤖<br>
 
-### Machine Learning Problem Identification
+### Machine Learning Problem Identification 💡
 
 <b>ML Problem:</b> Predict the happiness score given the features relevant to countries' social standing and wellbeing. Inspect the features that contribute the most to predicting happiness scores within countries. 
 
@@ -34,7 +34,7 @@ Using the World Happiness 2018 Dataset, this analysis implements and fine-tunes 
 <b>Feature list:</b> Social Support, Freedom, Positive affect, Negative affect, Corruption, Life Expectancy at Birth, LogGDP, Region (Binary Indicators for Ten Regions).
 <br><br>
 
-### Data Exploration
+### Data Exploration 🗂️
 
 Scatterplot visualizations of feature relationships, observing the direction and strength of the two-feature relationship. <br><br>
 <b>Examples: </b><br><br>
@@ -50,11 +50,12 @@ Happiness against Generosity - Weak Linear Relationship <br><br>
 <b>See more visualizations and exploration in the "DefineAndSolveMLProblemFinal.ipynb" repository file. </b> <br>
 <br>
 
-### Data Cleaning
+### Data Cleaning 🧼
 
 Mean imputation for missing values in all numerical-valued columns. 
 <br><br>
-### Data Preproccesing / Feature Engineering
+
+### Data Preproccesing / Feature Engineering ⚡
 
 One hot encoding of the regions for each country. Ten regions in total. <br>
 | Region                               | Number of <br>Countries |
@@ -74,10 +75,10 @@ One hot encoding of the regions for each country. Ten regions in total. <br>
 2) Feature selection of relevant features to the label. Relevant features identified have some linear correlation with the happiness label.  
 <br><br>
 
-### Model Selection and Implementation 
+### Model Selection and Implementation ⚙️
 
 <b>Models:</b> Random Forest Regressor (Ensemble Learning Method), Linear Regression <br><br>
-<b>Model Selection Reasoning:</b><br>
+<b>Model Selection Reasoning:</b><br><br>
 <i><b>Random Forest -></b></i> The prediction results from various decision trees in random forest helps in minimizing loss/inaccurate predictions for complex data. <br>
 <i><b>Linear Regression -></b></i> The selected non-region features have patterns of a linear relationship with the happiness label. <br><br>
 
@@ -90,7 +91,7 @@ One hot encoding of the regions for each country. Ten regions in total. <br>
 Multiple iterations repeated the processes of training data, cross validation of training data, testing on unseen data, and hyperparameter tuning in order to maximize R2 and minimize RMSE. 
 <br><br>
 
-### Model Evaluation and Refinement
+### Model Evaluation and Refinement 📋
 
 Regression Prediction Evaluation Metrics: R2 and RMSE (Root Mean Squared Error)
 
@@ -102,7 +103,8 @@ RMSE = Range between 31% to 35%
 R2 = 91% <br>
 RMSE = 30%
 <br><br>
-### Key Takeaways and Figures
+
+### Key Takeaways and Figures 📊
 
 Both models performed well according to the reported R2 and RMSE metrics when data was cleaned with feature engineering. <br>
 The Random Forest model provided the ranking of features that contributed to the happiness predictions. <br><br>
