@@ -43,7 +43,7 @@ Feature selection of relevant features to the label.
 
 <b>Model Selection and Implementation</b> 
 
-Random Forest Regressor, Linear Regression
+Random Forest Regressor (Ensemble Learning Method), Linear Regression
 
 <b>Model Evaluation and Refinement</b> 
 
