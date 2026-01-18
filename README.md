@@ -2,7 +2,7 @@
 Model analysis for predicting happiness scores using the World Happiness Report (WHR) dataset.
 
 
-## <b>About WHR Model Analysis Project</b><br>
+## 🌎 <b>About WHR Model Analysis Project</b> 🌎<br>
 Using the World Happiness 2018 Dataset, this analysis implements and fine-tunes Machine Learning Models to predict Happiness (Life Ladder) scores given social, financial, and geographic data for 164 countries. <br>
 
 <b>Dataset: </b> World Happiness 2018 CSV and Excel Files
@@ -17,7 +17,7 @@ Using the World Happiness 2018 Dataset, this analysis implements and fine-tunes 
 
 <br>
 
-## <b>Machine Learning Lifecycle</b><br>
+## 🤖🧠 <b>Machine Learning Lifecycle</b> 🧠🤖<br>
 
 ### Machine Learning Problem Identification
 
