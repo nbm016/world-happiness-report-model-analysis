@@ -11,11 +11,11 @@ Using the World Happiness 2018 Dataset, this analysis implemented and fine-tuned
 
 <b>Programming Languages and Libraries: </b>Python, Pandas, Scikit-Learn / Sklearn, Seaborn, MatPlotLib, NumPy
 
-<b>Technologies:</b> Jupyter Notebook, GitHub
-
 <b>Concepts:</b> ML Lifecycle - Problem Identification and Importance, Data Exploration, Data Cleaning, Data Preprocessing, Feature Engineering, Model Development/Implementation and Hyperparameter Tuning, Model Evaluation, Data Visualization
 
 <b>Models:</b> Random Forest Regressor, Linear Regression
+
+<b>Tools:</b> Jupyter Notebook, GitHub
 
 <br>
 
